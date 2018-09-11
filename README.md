@@ -4,7 +4,7 @@
 
 ## Version 1.0.0
 
-This plugin allows you to generate a PDFs of your webpage using [Pdfcrowd API v2](https://pdfcrowd.com/doc/api/)
+This plugin allows you to generate PDFs of your webpages using [Pdfcrowd API v2](https://pdfcrowd.com/doc/api/)
 
 ## Requirements
 
@@ -15,11 +15,13 @@ This plugin allows you to generate a PDFs of your webpage using [Pdfcrowd API v2
 
 1. Copy the `pdfcrowd` folder to `./craft/plugins/`
 3. Open your craft/config/general.php file, and add `pdfCrowdApiUser` and `pdfCrowdApiKey` to your `environmentVariables` array:
-
+	```php
 	'environmentVariables' => array(
 		'pdfCrowdApiUser' => '',
 		'pdfCrowdApiKey' => '',
 	),
+	```
+
 
 ## Usage
 	
