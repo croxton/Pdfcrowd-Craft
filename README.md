@@ -27,7 +27,7 @@ This plugin allows you to generate PDFs of your webpages using [Pdfcrowd API v2]
 ## Usage
 	
 	{# convert the current url #}
-	{{ craft.pdfcrowd.convert }}
+	{{ craft.pdfcrowd.convert() }}
 
 	{# hardcode the url #}
 	{{ craft.pdfcrowd.convert('https://www.mywebsite.com/my/webpage') }}
